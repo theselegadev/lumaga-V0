@@ -1,0 +1,108 @@
+.block-01 main .container-image{
+    width: 100%;
+    height: 520px;
+    background-image: url(./assets/fundo_mission.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.block-01 main .box-title{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 4;
+}
+.block-01 main .box-title{
+    color: white;
+    font-size: xx-large;
+    letter-spacing: 1px;
+    filter: drop-shadow(2px 3px 3px black);
+}
+.block-02 main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.block-02 main .box-title{
+    margin-top: 45px;
+}
+.block-02 main .box-title #row{
+    background-color: orange;
+    height: 5px;
+    width: 75px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.text{
+    width: 70%;
+    margin: 30px;
+}
+.text p{
+    font-size: large;
+    letter-spacing: 1px;
+}
+.box-img{
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+}
+.block-03 main .box-title #row{
+    background-color: orange;
+    height: 5px;
+    width: 75px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.block-03 main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.block-04 main .box-title #row{
+    background-color: orange;
+    height: 5px;
+    width: 75px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.block-04 main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#mission{
+    border-bottom: 3px solid white;
+    padding: 1px;
+}
+#home{
+    border-bottom: none;
+}
+@media (max-width: 999px){
+    .block-01 main .box-title{
+        left: 30%;
+    }
+    .block-01 main{
+        height: 91vh;
+    }
+    .block-01 main .container-image{
+        height: 100%;
+    }
+    .box-img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .box-img img{
+        width: 380px;
+    }
+}

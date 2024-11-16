@@ -1,0 +1,105 @@
+#home{
+    border-bottom: none;
+}
+#contact{
+    border-bottom: 3px solid white;
+    padding: 1px;
+}
+.block-01 main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 520px;
+    flex-direction: column;
+}
+.block-01 main .box-title{
+    margin-top: 30px;
+}
+.block-01 main .box-title #row{
+    background-color: orange;
+    height: 5px;
+    width: 75px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.text{
+    margin: 20px;
+    width: 500px;
+    letter-spacing: 1px;
+    font-size: large;
+}
+.box-email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-email p, .box-email svg{
+    margin: 10px;
+}
+.box-email svg{
+    width: 23px;
+    height: 23px;
+}
+.box-telefone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-telefone p, .box-telefone svg{
+    margin: 10px;
+}
+.box-telefone svg{
+    width: 23px;
+    height: 23px;
+}
+.box-whatsapp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-whatsapp p, .box-whatsapp svg{
+    margin: 10px;
+}
+.box-whatsapp svg{
+    height: 23px;
+    width: 23px;
+}
+.block-02 main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.block-02 main .box-title{
+    margin-top: 30px;
+}
+.block-02 main .box-title #row{
+    background-color: orange;
+    height: 5px;
+    width: 75px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+@media (max-width:999px){
+    .text{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 320px;
+    }
+    .block-01  main  .box-image img, .block-02 main .box-image img{
+        width: 350px;
+        margin: 25px;
+    }
+    .footer{
+        height: 450px;
+    }
+}
